@@ -55,9 +55,9 @@ easier to read. Like the gap between 2. and 1. in the example's solution.
 4. let sentence = 'Hello world!';
 
 3. if (sentence.includes('Hello')) {
-2.  console.log('Sentence DOES contain the word "Hello"');
+2.   console.log('Sentence DOES contain the word "Hello"');
 5. } else {
-1.  console.log('Sentence DOES NOT contain the word "Hello"');
+1.   console.log('Sentence DOES NOT contain the word "Hello"');
 6. }
 
 
@@ -99,8 +99,8 @@ easier to read. Like the gap between 2. and 1. in the example's solution.
 4. let min = 5;
 
 1. while (currentNum > min) {
-3.  console.log(currentNum);
-5.  currentNum = currentNum - 1;
+3.   console.log(currentNum);
+5.   currentNum = currentNum - 1;
 6. }
 
 
@@ -125,7 +125,7 @@ easier to read. Like the gap between 2. and 1. in the example's solution.
 7. const reversedString = reversedArray.join('');
 
 5. if (reversedString.includes('treasure')) {
-    2. console.log('Your message:', reversedString)
+2.   console.log('Your message:', reversedString)
 6. }
 
 
@@ -148,8 +148,8 @@ easier to read. Like the gap between 2. and 1. in the example's solution.
 6. let count = 10;
 
 2. while (count > 0) {
-1.  total = total + count;
-4.  count = count - 1;
+1.   total = total + count;
+4.   count = count - 1;
 7. }
 
 5. console.log('The total is:', total)
@@ -176,10 +176,10 @@ easier to read. Like the gap between 2. and 1. in the example's solution.
 
 
 4. for (let i = 0; i < array.length; i++) {
-5.      let item = array[i];
-6.      if (item === numberToSearchFor) {
-3.          console.log('Array includes the number!')
-9.      }
+5.   let item = array[i];
+6.   if (item === numberToSearchFor) {
+3.     console.log('Array includes the number!')
+9.   }
 1. }
 
 
