@@ -99,8 +99,8 @@ easier to read. Like the gap between 2. and 1. in the example's solution.
 4. let min = 5;
 
 1. while (currentNum > min) {
-3. console.log(currentNum);
-5. currentNum = currentNum - 1;
+3.  console.log(currentNum);
+5.  currentNum = currentNum - 1;
 6. }
 
 
