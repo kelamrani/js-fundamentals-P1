@@ -15,6 +15,21 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let arrayPrime = [];
+
+  for (i = 1; i <= 200; i++) {
+    for (j = 2; j <= i; j++) {
+      if (j === i) {
+        arrayPrime.push(i);
+        break;
+      }
+
+      if (i % j === 0) break;
+      else continue;
+    }
+  }
+
+  console.log(arrayPrime);
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

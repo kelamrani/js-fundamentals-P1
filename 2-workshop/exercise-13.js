@@ -20,6 +20,16 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let arrayFibonnacy = [];
+  arrayFibonnacy[0] = 0;
+  arrayFibonnacy[1] = 1;
+
+  for (i = 2; i <= 49; i++) {
+    arrayFibonnacy[i] = arrayFibonnacy[i - 1] + arrayFibonnacy[i - 2];
+  }
+
+  console.log(arrayFibonnacy[49]);
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
