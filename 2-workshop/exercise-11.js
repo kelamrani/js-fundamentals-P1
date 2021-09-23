@@ -15,6 +15,14 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  let evenLine = "_#_#_#_#";
+  let oddLine = "#_#_#_#_";
+
+  for (i = 1; i <= 8; i++) {
+    if (i % 2 === 0) console.log(`${evenLine}`);
+    else console.log(`${oddLine}`);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
